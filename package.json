@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "@geist-ui/core": "^2.3.8",
-    "react-syntax-highlighter": "^15.5.0",
     "next": "latest",
     "react": "^19.2.1",
-    "react-dom": "^19.2.1"
+    "react-dom": "^19.2.1",
+    "react-syntax-highlighter": "^16.1.0"
   },
   "devDependencies": {
     "@types/node": "latest",
