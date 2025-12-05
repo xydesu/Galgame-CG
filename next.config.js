@@ -1,5 +1,13 @@
 module.exports = {
   images: {
-    domains: ['localhost'], // Add your domain if needed
+    remotePatterns: [
+      {
+        protocol: 'http',
+        hostname: 'localhost',
+      },
+    ],
+  },
+  turbopack: {
+    root: __dirname,
   },
 };

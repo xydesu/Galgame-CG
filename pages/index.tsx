@@ -4,6 +4,7 @@ import { useTheme, Code, Snippet, Text, Page, Grid, Divider, Link, Spacer, Card 
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { oneDark } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 
+
 const htmlExample = `<img src='https://galgame-cg.vercel.app/api/random-image'/>`
 
 const css = `.background {
@@ -28,7 +29,7 @@ export default function Home() {
         <title>Galgame CG</title>
         <meta name="description" content="隨機顯示一張 Galgame CG 圖片" />
       </Head>
-
+      {/* @ts-ignore */}
       <Link
         href="https://github.com/XingYanTW/Galgame-CG"
         target="_blank"
@@ -80,6 +81,7 @@ export default function Home() {
 
               <Text h3> 2. Issue </Text>
               <Text>
+                {/* @ts-ignore */}
                 <Link href='https://github.com/XingYanTW/Galgame-CG/issues/new' color target="_blank">點擊此連結</Link>
                 到達Issue頁面提交新的Issue
               </Text>
@@ -88,10 +90,13 @@ export default function Home() {
           <Grid xs={0} md={6} style={{ height: '100%' }}>
             <div style={{ position: 'sticky', top: '20px', width: '100%' }}>
               <Card>
+                {/* @ts-ignore */}
                 <Link href="#usage" block>使用方法</Link>
                 <Spacer h={0.5} />
+                {/* @ts-ignore */}
                 <Link href="#build" block>開發</Link>
                 <Spacer h={0.5} />
+                {/* @ts-ignore */}
                 <Link href="#recommendations" block>CG 推薦</Link>
               </Card>
             </div>

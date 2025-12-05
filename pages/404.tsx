@@ -9,6 +9,7 @@ export default function Custom404() {
                 <div className="not-found">
                     <Text h1>你好像來錯地方了，這裡沒有你要的東西！</Text>
                     <Spacer h={1} />
+                    {/* @ts-ignore */}
                     <Button onClick={() => router.back()} type="secondary" auto>回去</Button>
                     <Spacer h={2} />
                     <div className="image-container">
