@@ -37,7 +37,7 @@ export default function Home() {
         block
       >
         <img
-          src="github-mark.png"
+          src="github-mark.svg"
           alt="GitHub"
           className={styles.githubMark}
         />
