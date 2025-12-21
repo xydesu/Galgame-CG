@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { useTheme, Code, Snippet, Text, Page, Grid, Divider, Link, Spacer, Card } from '@geist-ui/core';
+import { Snippet, Text, Page, Grid, Divider, Link, Spacer, Card } from '@geist-ui/core';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { oneDark } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 
@@ -22,7 +22,6 @@ const start = `yarn start`
 
 
 export default function Home() {
-  const { palette } = useTheme();
   return (
     <Page dotBackdrop width="100%" padding={0}>
       <Head>

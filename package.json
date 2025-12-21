@@ -1,5 +1,6 @@
 {
-  "name": "my-nextjs-app",
+  "name": "galgame-cg",
+  "author": {"name": "xydesu", "email": "xingyantw@outlook.com"},
   "version": "1.0.0",
   "private": true,
   "scripts": {
