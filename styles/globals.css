@@ -1,10 +1,81 @@
-html {
-  scroll-behavior: smooth;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+:root {
+    /* Comfortable Dark Theme (Soft Blue-Grey base) */
+    --bg-color: #0f172a;
+    --text-primary: #f1f5f9;
+    /* Increased brightness for better contrast */
+    --text-secondary: #94a3b8;
+    /* Maintained but ensure it is legible */
+
+    /* Softer Accents */
+    --accent-primary: #38bdf8;
+    /* Sky Blue */
+    --accent-secondary: #c084fc;
+    /* Soft Purple */
+
+    /* Glassmorphism */
+    --glass-bg: rgba(30, 41, 59, 0.7);
+    /* Slate 800 with opacity */
+    --glass-border: rgba(148, 163, 184, 0.1);
+
+    --gradient-main: linear-gradient(135deg, #38bdf8 0%, #c084fc 100%);
+    --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.25);
 }
+
+html,
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #334155;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #475569;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+}

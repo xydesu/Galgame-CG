@@ -1,6 +1,9 @@
 {
   "name": "galgame-cg",
-  "author": {"name": "xydesu", "email": "xingyantw@outlook.com"},
+  "author": {
+    "name": "xydesu",
+    "email": "xingyantw@outlook.com"
+  },
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,13 +12,14 @@
     "start": "next start"
   },
   "dependencies": {
-    "@geist-ui/core": "^2.3.8",
+    "image-size": "^2.0.2",
     "next": "latest",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
     "react-syntax-highlighter": "^16.1.0"
   },
   "devDependencies": {
+    "@types/image-size": "^0.8.0",
     "@types/node": "latest",
     "@types/react": "latest",
     "typescript": "latest"

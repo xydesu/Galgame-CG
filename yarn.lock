@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@babel/runtime@^7.16.7", "@babel/runtime@^7.28.4":
+"@babel/runtime@^7.28.4":
   version "7.28.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.28.4.tgz#a70226016fabe25c5783b2f22d3e1c9bc5ca3326"
   integrity sha512-Q/N6JNWvIvPnLDvjlE1OUBLPQHH6l3CltCEsHIujp45zQUSSh8K+gHnaEX45yAT1nyngnINhvWtzN+Nb9D8RAQ==
@@ -13,13 +13,6 @@
   integrity sha512-PVtJr5CmLwYAU9PZDMITZoR5iAOShYREoR45EyyLrbntV50mdePTgUn4AmOw90Ifcj+x2kRjdzr1HP3RrNiHGA==
   dependencies:
     tslib "^2.4.0"
-
-"@geist-ui/core@^2.3.8":
-  version "2.3.8"
-  resolved "https://registry.yarnpkg.com/@geist-ui/core/-/core-2.3.8.tgz#bc2bae61b8d478d61a045d776455ba5a3dc7472e"
-  integrity sha512-OKwGgTA4+fBM41eQbqDoUj4XBycZbYH7Ynrn6LPO5yKX7zeWPu/R7HN3vB4/oHt34VTDQI5sDNb1SirHvNyB5w==
-  dependencies:
-    "@babel/runtime" "^7.16.7"
 
 "@img/colour@^1.0.0":
   version "1.0.0"
@@ -227,6 +220,13 @@
   dependencies:
     "@types/unist" "*"
 
+"@types/image-size@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@types/image-size/-/image-size-0.8.0.tgz#736342ea51e076fa5fffd6ff219e9b412d4093f1"
+  integrity sha512-hMlhu25ji75dXQk2uZkN3pTJ+lWrgKr8M1fTpyyFvuu+SJZBdGa5gDm4BVNobWXHZbOU11mBj0vciYp7qOfAFg==
+  dependencies:
+    image-size "*"
+
 "@types/node@latest":
   version "22.14.1"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-22.14.1.tgz#53b54585cec81c21eee3697521e31312d6ca1e6f"
@@ -342,6 +342,11 @@ highlightjs-vue@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/highlightjs-vue/-/highlightjs-vue-1.0.0.tgz#fdfe97fbea6354e70ee44e3a955875e114db086d"
   integrity sha512-PDEfEF102G23vHmPhLyPboFCD+BkMGu+GuJe2d9/eH4FsCwvgBpnc9n0pGE+ffKdph38s6foEZiEjdgHdzp+IA==
+
+image-size@*, image-size@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/image-size/-/image-size-2.0.2.tgz#84a7b43704db5736f364bf0d1b029821299b4bdc"
+  integrity sha512-IRqXKlaXwgSMAMtpNzZa1ZAe8m+Sa1770Dhk8VkSsP9LS+iHD62Zd8FQKs8fbPiagBE7BzoFX23cxFnwshpV6w==
 
 is-alphabetical@^2.0.0:
   version "2.0.1"
