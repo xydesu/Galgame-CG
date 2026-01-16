@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css';
 const Footer = () => {
     return (
         <footer className={styles.footer}>
-            <p>Created by XingYan</p>
+            <p>Created by xydesu</p>
             <div style={{ marginTop: '1rem' }}>
                 <a
                     href="https://github.com/xydesu/Galgame-CG"
