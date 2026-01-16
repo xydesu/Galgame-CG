@@ -15,7 +15,7 @@ CSS範例
 ## 開發
 下載專案
 ```bash
-git clone https://github.com/XingYanTW/Galgame-CG.git
+git clone https://github.com/xydesu/Galgame-CG.git
 cd Galgame-CG
 yarn install
 ```
@@ -36,4 +36,4 @@ yarn start
 點擊右上角Fork後將圖片丟進public\images資料夾並提出pull request
 
 ### 2. Issue
-[點擊此連結](https://github.com/XingYanTW/Galgame-CG/issues/new)到達Issue頁面提交新的Issue
+[點擊此連結](https://github.com/xydesu/Galgame-CG/issues/new)到達Issue頁面提交新的Issue

@@ -6,7 +6,7 @@ const Footer = () => {
             <p>Created by XingYan</p>
             <div style={{ marginTop: '1rem' }}>
                 <a
-                    href="https://github.com/XingYanTW/Galgame-CG"
+                    href="https://github.com/xydesu/Galgame-CG"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={styles.footerLink}
@@ -15,7 +15,7 @@ const Footer = () => {
                 </a>
                 <span>•</span>
                 <a
-                    href="https://github.com/XingYanTW/Galgame-CG/issues"
+                    href="https://github.com/xydesu/Galgame-CG/issues"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={styles.footerLink}
